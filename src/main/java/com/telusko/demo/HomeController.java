@@ -13,14 +13,9 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HomeController {
 	@RequestMapping("home")
-	public ModelAndView home(@RequestParam("name") String myName, HttpSession session) {
-//	public String home(HttpServletRequest req, HttpServletResponse res) {
-//		HttpSession session = req.getSession();
-//		String name = req.getParameter("name");
+	public ModelAndView home(Alien alien) {
 		ModelAndView mv = new ModelAndView();
-//		System.out.println("in home: " + myName);
-//		session.setAttribute("name", myName);
-		mv.addObject("name", myName);
+		mv.addObject("obj", alien);
 		mv.setViewName("home");
 		return mv;
 	}

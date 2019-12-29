@@ -9,7 +9,7 @@
 <body>
 	<h2> 
 		home page. <br>
-		Welcome ${name}<br>
+		Welcome ${obj.aid}, ${obj.aname}, ${obj.lang}<br>
 		I love java
 	</h2>
 </body>
