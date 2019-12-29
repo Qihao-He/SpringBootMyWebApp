@@ -9,6 +9,7 @@
 <body>
 	<h2> 
 		home page. <br>
+		Welcome ${name}<br>
 		I love java
 	</h2>
 </body>
