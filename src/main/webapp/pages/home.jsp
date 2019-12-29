@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>home page. I love java</h2>
+	<h2> 
+		home page. <br>
+		I love java
+	</h2>
 </body>
 </html>
